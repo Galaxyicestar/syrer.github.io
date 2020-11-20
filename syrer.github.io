@@ -1,46 +1,39 @@
- var  moveforward =294;
-    var  moveback = 53;
-     var newvar=-7;
-     var oppositevar =164;
-    var rectgreen =  107;
-draw= function() {
-     
-    background (67, 11, 219);
-   
-    fill(12, 245, 12);
-    textSize(26);
-    text("click for yes !!",32,281,200,116); 
-   image(getImage("cute/Heart"), 149,41,90,100);
-    image(getImage("cute/CharacterCatGirl"),newvar,59,111,oppositevar);
-    image(getImage("cute/CharacterBoy"),moveforward,66,128,160);
-    image(getImage("cute/GrassBlock"),0,171,131,88);
-     image(getImage("cute/GrassBlock"),121,172,131,88);
-     image(getImage("cute/GrassBlock"),242,171,159,88);
-     moveforward +=  -1; 
-     newvar+=1;
-     
-  if (moveforward  === 190){
-  moveforward  = 310;
-}
-  
-  if (newvar === 90){
-   newvar = -29 ;
-  }
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Travel webpage</title>
+<style>
+            body{
+                background-color: rgb(28, 122, 20) ;
+                font-family:Georgia;
+                color:rgb(244, 242, 245);
+            }
+</style>
+</head>
+<body>
+    
+    <h1>Travel to NIGERIA!!</h1>
+        <h4>Have you ever wonderd how it will feel to got to africa? well your in luck i'll bring it to you!!
+    ENJOY <img src="https://www.kasandbox.org/programming-images/animals/cat.png" height="229" width="480">   </h4>
+        <h2> chapters  </h2>
+        
+<ol>
+    <li>Introduction
+    <li>History
+    <li>Freedom
+    <li>scenery
+    <li>Pros
+    <li>Cons
+    <li>bye
+</ol> <img src="https://www.kasandbox.org/programming-images/animals/cheetah.png" height="174" width="241">   
+        
+        
+        
+        
+        
+        
+    </body>
+</html>
 
- if(keyIsPressed){
-  fill(34, 242, 34);
- } else {fill(122, 116, 116);
-     
- } 
-     rect(22,309,172,60,80);//the first button for yes
-     fill(230, 21, 21);
-     textSize(22);
-      text("click spacebar for yes!!! ; 0",14,229);
-      fill(115, 105, 105);
-      rect(210,309,172,60,80);
-      
-      
-      
-  };
-  
  
